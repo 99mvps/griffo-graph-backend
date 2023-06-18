@@ -16,12 +16,5 @@
     "types": [
       "jest"
     ],
-    "paths": {
-      "@/*": ["src/*"],
-      "@test/*": ["src/test/*"],
-      "@database/*": ["src/database/*"],
-      "@modules/*": ["src/modules/*"],
-      "@helpers/*": ["src/helpers/*"]
-    }
   }
 }
