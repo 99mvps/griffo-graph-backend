@@ -2,7 +2,7 @@
 
 import { faker } from "@faker-js/faker";
 
-import { UserRoles } from "@modules/users/user.entity";
+import { UserRoles } from "src/modules/users/user.entity";
 
 import { MockDataOptions, createMockData } from "./autoMock";
 

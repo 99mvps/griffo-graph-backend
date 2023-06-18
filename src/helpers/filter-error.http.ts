@@ -1,6 +1,6 @@
 import { ArgumentsHost, Catch, ExceptionFilter, HttpStatus, Logger } from "@nestjs/common";
 
-import { ServiceLayerError } from "@helpers/errors/ServiceException.error";
+import { ServiceLayerError } from "../helpers/errors/ServiceException.error";
 
 @Catch(ServiceLayerError)
 export class HttpErrorFilter implements ExceptionFilter {

@@ -3,8 +3,8 @@ import { InjectRepository } from "@nestjs/typeorm";
 import { UUIDVersion } from "class-validator";
 import { DeleteResult, Repository, TypeORMError, UpdateResult } from "typeorm";
 
-import { PostgresErrorCode } from "@database/typeorm.pgsql-errors.enum";
-import { ServiceLayerError } from "@helpers/errors/ServiceException.error";
+import { PostgresErrorCode } from "src/database/typeorm.pgsql-errors.enum";
+import { ServiceLayerError } from "src/helpers/errors/ServiceException.error";
 
 import { CreateUserDTO, FilterUsersDTO, UpdateUserDTO } from "./user.dto";
 import { User } from "./user.entity";

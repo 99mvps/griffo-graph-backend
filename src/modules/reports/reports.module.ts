@@ -1,7 +1,7 @@
 import { Module, Scope } from "@nestjs/common";
 import { APP_FILTER } from "@nestjs/core";
 
-import { NotionService } from "@/services/notion/notion.service";
+import { NotionService } from "src/services/notion/notion.service";
 
 import { ExpensesMapper } from "./report-expenses.mapper";
 import { ReportsController } from "./reports.controller";

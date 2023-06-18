@@ -1,4 +1,4 @@
-import { TestDataSourceSetup } from "@database/typeorm";
+import { TestDataSourceSetup } from "../database/typeorm";
 
 export async function setupE2EDB(showLogs = false) {
   try {

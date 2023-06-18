@@ -2,8 +2,8 @@ import { JwtService } from "@nestjs/jwt";
 import { Test, TestingModule } from "@nestjs/testing";
 import { getRepositoryToken } from "@nestjs/typeorm";
 
-import { User } from "@modules/users/user.entity";
-import { UsersService } from "@modules/users/users.service";
+import { User } from "./modules/users/user.entity";
+import { UsersService } from "./modules/users/users.service";
 
 import { AuthService } from "./auth.service";
 import { JwtStrategy } from "./jwt.strategy";

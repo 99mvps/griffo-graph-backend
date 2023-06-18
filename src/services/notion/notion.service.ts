@@ -3,7 +3,7 @@ import { ConfigService } from "@nestjs/config";
 import { Client } from "@notionhq/client";
 import { QueryDatabaseResponse } from "@notionhq/client/build/src/api-endpoints";
 
-import { TAppConfiguration } from "@/config";
+import { TAppConfiguration } from "src/config";
 
 const notionClientSecret = "secret_tWuiQ4zUUEX9haGLlfxzQobfuCaEzWczic0rQXzvKqv";
 

@@ -1,7 +1,8 @@
 import { DataSource } from "typeorm";
 
-import { AppConfiguration } from "@/config/index";
-import { User } from "@/modules/users/user.entity";
+import { User } from "src/modules/users/user.entity";
+
+import { AppConfiguration } from "../config";
 
 const { database } = AppConfiguration();
 
@@ -9,6 +10,6 @@ delete database.autoLoadEntities;
 
 export const databaseConfig = {
   ...database,
-  entities: [User,],
+  entities: [User],
 };
 export const TestDataSourceSetup = new DataSource(databaseConfig);

@@ -1,7 +1,7 @@
 import { Inject, Injectable } from "@nestjs/common";
 
-import { NotionTables } from "@/services/notion/notion-enum.databases";
-import { NotionService } from "@/services/notion/notion.service";
+import { NotionTables } from "src/services/notion/notion-enum.databases";
+import { NotionService } from "src/services/notion/notion.service";
 
 import { ExpensesMapper } from "./report-expenses.mapper";
 import { ReportExpensesTable } from "./reports.interfaces";

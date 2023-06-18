@@ -25,11 +25,10 @@ import {
 import { UUIDVersion } from "class-validator";
 import { DeleteResult, UpdateResult } from "typeorm";
 
-import { JwtAuthGuard } from "@modules/auth/jwt.guard";
-
 import { FilterUsersDTO, UsersDTO, CreateUserDTO, UpdateUserDTO } from "./user.dto";
 import { User } from "./user.entity";
 import { UsersService } from "./users.service";
+import { JwtAuthGuard } from "../auth/jwt.guard";
 
 @ApiTags("Users")
 @Controller("users")

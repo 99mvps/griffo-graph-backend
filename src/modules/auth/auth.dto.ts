@@ -2,7 +2,7 @@ import { ApiProperty } from "@nestjs/swagger";
 import { Expose } from "class-transformer";
 import { IsEmail, IsNotEmpty, IsString, MaxLength } from "class-validator";
 
-import { UsersDTO } from "@modules/users/user.dto";
+import { UsersDTO } from "../users/user.dto";
 
 export class AuthDTO {
   @Expose()

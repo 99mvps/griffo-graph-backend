@@ -5,9 +5,10 @@ import * as request from "supertest";
 import { AppController } from "@/app.controller";
 import { AppModule } from "@/app.module";
 import { UserRoles } from "@/modules/users/user.entity";
-import { AuthService } from "@modules/auth/auth.service";
-import { UsersService } from "@modules/users/users.service";
 import { build as userMock } from "@test/mocks/users.mock";
+
+import { AuthService } from "./modules/auth/auth.service";
+import { UsersService } from "./modules/users/users.service";
 
 jest.setTimeout(30000);
 

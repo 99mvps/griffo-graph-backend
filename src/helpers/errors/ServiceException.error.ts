@@ -1,7 +1,7 @@
 import { HttpException, HttpStatus } from "@nestjs/common";
 import { ApiProperty } from "@nestjs/swagger";
 
-import { PostgresErrorCode } from "@database/typeorm.pgsql-errors.enum";
+import { PostgresErrorCode } from "../../database/typeorm.pgsql-errors.enum";
 
 export class ServiceException {
   @ApiProperty({

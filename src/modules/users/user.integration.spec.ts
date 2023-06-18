@@ -5,10 +5,10 @@ import { UUIDVersion } from "class-validator";
 import { Repository } from "typeorm";
 
 import { databaseConfig } from "@/database/typeorm";
-import { User } from "@modules/users/user.entity";
-import { UsersModule } from "@modules/users/users.module";
-import { UsersService } from "@modules/users/users.service";
-import { Patient } from "@modules/veterinarians/patients/patient.entity";
+import { User } from "./modules/users/user.entity";
+import { UsersModule } from "./modules/users/users.module";
+import { UsersService } from "./modules/users/users.service";
+import { Patient } from "./modules/veterinarians/patients/patient.entity";
 import { build as userMock } from "@test/mocks/users.mock";
 
 jest.setTimeout(30000);

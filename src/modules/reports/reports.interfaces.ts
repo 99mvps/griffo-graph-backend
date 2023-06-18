@@ -5,7 +5,7 @@ import {
   PropertyValueTitle,
   PropertyValueMultiSelect,
   PropertyValueStatus,
-} from "@/services/notion/notion.interfaces";
+} from "src/services/notion/notion.interfaces";
 
 export type ReportExpensesTable = FinancialResult & {
   properties: {

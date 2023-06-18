@@ -18,10 +18,10 @@ import {
   ApiTags,
 } from "@nestjs/swagger";
 
-import { AuthDTO, BearerTokenDTO } from "@modules/auth/auth.dto";
-// import { AuthService } from "@modules/auth/auth.service";
-import { JwtAuthGuard } from "@modules/auth/jwt.guard";
-import { LocalAuthGuard } from "@modules/auth/local.guard";
+// import { AuthService } from "./modules/auth/auth.service";
+import { AuthDTO, BearerTokenDTO } from "./modules/auth/auth.dto";
+import { JwtAuthGuard } from "./modules/auth/jwt.guard";
+import { LocalAuthGuard } from "./modules/auth/local.guard";
 
 @Controller()
 export class AppController {
